@@ -1,0 +1,38 @@
+/* static/styles.css*/
+body {
+    font-family: Arial, sans-serif;
+    text-align: center;
+    margin: 50px;
+    background-color: #f4f4f4;
+ }
+
+ h1 {
+    color: #333;
+ }
+
+ .image-container {
+    display: flex;
+    justify-content: center; /* Centers images with minimal spacing */
+    align-items: center;
+    margin: 10px auto;
+    max-width: 80%;
+    gap: 70px; /* Reduces space between the images */
+}
+
+.image-container img {
+    width: auto; /* Keeps the image width flexible */
+    max-height: 400px; /* Prevents images from getting too tall */
+    object-fit: fill;
+    border-radius: 40px;
+    margin: 0; /* Removes extra spacing around images */
+    padding: 0; /* Ensures no additional spacing */
+}
+
+
+
+ p {
+    max-width: 45%; /* Adjust this value to increase or decrease width */
+    margin: 20px auto; /* Centers the paragraph and adds vertical spacing */
+    text-align: center; /* Keeps text alignment natural */
+    padding: 10px;
+}
